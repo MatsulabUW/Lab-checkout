@@ -1,0 +1,262 @@
+/**
+ * Dylan Renard and Semin Kim
+ * CSE 154 AD and AA
+ *
+ * Final Project MVP
+ *
+ * Our project is to make a lab equipment checkout page
+ * This file contains styles for our index page
+ *
+ */
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  background-color: rgb(217, 223, 225);
+  background-image: url('https://www.inria.fr/sites/default/files/2023-04/A_Mieux_comprendre_images_bio_cellulaire_QBI-1024x649-1_1836x1027.png');
+  /* Image copyright: © France BioImaging */
+  background-attachment: fixed;
+  background-size: cover;
+  color: rgb(1, 55, 50);
+  font-family: 'Glory', sans-serif;
+}
+
+/* Header */
+
+h1 {
+  color: whitesmoke;
+}
+
+nav {
+  padding: 3%;
+  align-items: center;
+  justify-content: baseline;
+}
+
+#logos {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+#logos > img {
+  height: 100%;
+}
+
+#login-box, .item {
+  flex-direction: column;
+}
+
+#login-box > button, #tabs-wrapper > button {
+  border: none;
+  color: white;
+  padding: 10px, 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+#login-box > button, h2 {
+  display: inline-block;
+}
+
+#login-box {
+  gap: 5px;
+  margin-left: 5px;
+}
+
+#tabs-wrapper > button {
+  width: 49.6%;
+  height: 50px;
+}
+
+/* Search & Filter */
+
+.search-wrapper, main > section {
+  background-color: rgb(116, 116, 245);
+  border-radius: 10px;
+  opacity: 90;
+  padding: 20px;
+}
+
+#search {
+  cursor: text;
+  width: 85%;
+  height: 30px;
+  margin-left: 5px;
+}
+
+aside {
+  display: block;
+  width: 25%;
+  color: rgb(188, 193, 190);
+  padding: 1% 2% 2% 2%;
+  border-radius: 20px;
+}
+
+form > div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Body */
+
+.user-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.25rem;
+}
+
+.item {
+  border-radius: 7px;
+  background-color: whitesmoke;
+  padding: 0.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.item > img {
+  justify-content: center;
+  height: 200px;
+}
+
+.stock-info {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.expire-info {
+  color: rgb(64, 99, 96);
+  font-size: 16px;
+  margin: 10px 0px 10px 0px;
+}
+
+.available {
+  color: green;
+}
+
+.unavailable {
+  color: red;
+}
+
+.add-to-cart {
+  background-color: rgb(87, 0, 208);
+  color: whitesmoke;
+  border-radius: 10px;
+  height: 30px;
+}
+
+.apply-filter {
+  background-color: rgb(116, 116, 245);
+  color: whitesmoke;
+  border-radius: 10px;
+  font-size: 20px;
+  height: 50px;
+  width: 250px;
+}
+
+main, h3, div, nav, header, #login-box {
+  display: flex;
+}
+
+main, h3, div, nav, header {
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+aside, .left, details {
+  float: left;
+}
+
+aside, #login-box > button, #tabs-wrapper > button {
+  background-color: rgb(87, 0, 208);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  margin-left: 20%;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+body, li, details {
+  font-size: 18px;
+}
+
+h2, h3, header, main > section, .item > img {
+  width: 100%;
+}
+
+main > section {
+  margin-left: 2%;
+}
+
+h2 {
+  border-bottom: 2px solid rgb(112, 128, 144);
+  box-sizing: border-box;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  color: whitesmoke;
+}
+
+h3 {
+  align-items: flex-start;
+}
+
+article p {
+  font-size: 13px;
+  font-style: italic;
+}
+
+nav p {
+  color: whitesmoke;
+}
+
+.left, details {
+  text-align: left;
+  width: 75%;
+}
+
+.right {
+  text-align: right;
+  float: right;
+  padding-top: 1%;
+  width: 25%;
+  font-size: small;
+}
+
+.icon {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+#bb-logo {
+  width: 200px;
+}
+
+#matsu-logo {
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+}
+
+.hidden {
+  visibility: hidden;
+  display: none; /* !important; */
+}
+
+.not-chosen-tab {
+  color: rgb(1, 55, 50); /* !important; */
+  background-color: rgb(116, 116, 245); /* !important; */
+}
+
+#data-user-cards-container h3:hover {
+  text-decoration: underline;
+}
