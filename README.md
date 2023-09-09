@@ -7,7 +7,8 @@ A full-stack laboratory inventory app built with HTML, CSS, and JavaScript.
 - [How to get this app](#how-to-get-this-app)
 - [How to use this app](#how-to-use-the-app)
 - [Design](#design)
-- [The API](#data-api)
+  - [Front-end](#front-end)
+  - [The API](#data-api)
 - [For Developers](#for-developers)
 - [Tech Stack](#tech-stack)
 - [Roadmap](#roadmap)
@@ -32,11 +33,7 @@ A full-stack laboratory inventory app built with HTML, CSS, and JavaScript.
 
 <!-- Short description of front-end build/design -->
 
-### Back-end
-
-<!-- Short descriptiong of back-end design -->
-
-## Data API
+### Data API (Back-end)
 
 Create a Javascript Wrapper class to call several of the functions
 we plan to implement for users:
@@ -46,7 +43,7 @@ we plan to implement for users:
 - update product information
 - this javascript wrapper class code will be hosted and called on by API requests
 
-### GolgiAparatus.incorporrated
+#### GolgiAparatus.incorporrated
 
 **Request Informations with examples:**
 [GET] get information to load information on the website and apply search filters
@@ -104,7 +101,7 @@ we plan to implement for users:
   - If the requst parameters are missing, client side error occurrs and returns
     error message: {error: "invalid request"}
 
-## Database
+### Database
 
 Implement Several Databases using the following schema
 using a Microsoft Azure Server:
@@ -209,7 +206,7 @@ Planned Features:
 
 ## How to contribute
 
-Contributions are welcome! Please feel free to fork this repo, add any changes, and create a pull request against this repo's main branch. Please limit contributed code to HTML, CSS, and JavaScript. Please limit neaw features and/or fixed bugs to one feature/bug per branch. Please label your branches with `<name>-<feature/bug>`.
+Contributions are welcome! Please feel free to fork this repo, add any changes, and create a pull request against this repo's main branch. Please limit contributed code to HTML, CSS, and JavaScript. Please limit neaw features and/or fixed bugs to one feature/bug per branch. Please label your branches with `A-B`, where `A` is your name or GitHub username, and `B` is the feature, bug, or a description of the change, separated by a hyphen.
 
 ## Contributors
 
