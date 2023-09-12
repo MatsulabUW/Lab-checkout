@@ -200,9 +200,10 @@ This project is built in HTML, CSS, and JavaScript. We selected vanilla JavaScri
 
 Planned Features:
 
-- [ ] Feature1
-- [ ] Feature2
-- [ ] Feature3
+- [ ] Group-based "checkout"/listed-as-consumed of items, especially by experiment
+- [ ] Google account OAuth login
+- [ ] Export experimental protocol to `.txt` file.
+- [ ] Scheduling equipment time
 
 ## How to contribute
 
