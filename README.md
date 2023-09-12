@@ -205,6 +205,11 @@ Planned Features: (in no particular order)
 - [ ] Export experimental protocol to `.txt` file.
 - [ ] Scheduling equipment time
 - [ ] Admin account that can add/remove users
+- [ ] Send alert when item's inventory reaches 0 or preset amount, with button/reply functionality to list item as being on order
+- [ ] Show if an item is on order, regardless of inventory amount
+  - [ ] When item is on order it also shows a button to add the received items (once they've arrived). Once that button is pressed, a prompt to enter the number of items appears, with final 'add to inventory' button
+- [ ] Ability to group items into experimental protocol "ingredient list"
+- [ ] Ability to check out items / groups of items by experiment protocol
 
 ## How to contribute
 
