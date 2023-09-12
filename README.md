@@ -198,12 +198,13 @@ This project is built in HTML, CSS, and JavaScript. We selected vanilla JavaScri
 
 ## Roadmap
 
-Planned Features:
+Planned Features: (in no particular order)
 
 - [ ] Group-based "checkout"/listed-as-consumed of items, especially by experiment
 - [ ] Google account OAuth login
 - [ ] Export experimental protocol to `.txt` file.
 - [ ] Scheduling equipment time
+- [ ] Admin account that can add/remove users
 
 ## How to contribute
 
